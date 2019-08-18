@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@color/app_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <EditText
+                android:id="@+id/input"
+                android:hint="@string/text_input"
+                android:fontFamily="cursive"
+                android:maxLines="3"
+                android:textSize="48sp"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                tools:ignore="Autofill"/>
+        <TextView
+                android:id="@+id/save"
+                android:text="@string/text_add"
+                android:fontFamily="sans-serif-black"
+                android:textSize="16sp"
+                android:textColor="#333"
+                android:background="@color/button_background"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp" />
+
+        <TextView
+                android:id="@+id/delete"
+                android:text="@string/text_delete"
+                android:fontFamily="sans-serif-black"
+                android:textSize="16sp"
+                android:textColor="#333"
+                android:background="@color/button_background"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp" />
+
+        <TextView
+                android:id="@+id/show"
+                android:text="@string/text_show_all"
+                android:fontFamily="sans-serif-black"
+                android:textSize="16sp"
+                android:textColor="#333"
+                android:background="@color/button_background"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"/>
+
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/imageView2"
+                android:src="@drawable/chocolate"
+                android:contentDescription="@string/chocolate_image_description"
+                android:visibility="visible"
+                tools:visibility="visible"/>
+
+    </LinearLayout>
+
+</ScrollView>

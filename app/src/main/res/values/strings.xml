@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Magic Chocolate Box</string>
+    <string name="text_input">Enter chocolate here</string>
+    <string name="text_add">Add</string>
+    <string name="text_delete">Delete</string>
+    <string name="text_show_all">Show all chocolates</string>
+    <string name="chocolate_image_description">Chocolate image</string>
+</resources>
